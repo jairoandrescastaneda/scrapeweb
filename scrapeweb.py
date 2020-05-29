@@ -1,4 +1,3 @@
-#! /usr/bin/python3
 import re
 from bs4 import BeautifulSoup
 import requests
@@ -83,13 +82,13 @@ while user_permission != 'n':
                 email()
                 print(bcolors.OKBLUE+'Saving Emails' + bcolors.ENDC)
                 print(bcolors.OKGREEN+'Saved Successfully' + bcolors.ENDC)
-                print('Found Email Saved at root folder of this tool as foundemails.txt')
+                print('Found Email Saved at root folder of this tool')
                     
             elif user_selected_option == 2:
                 links()
                 print(bcolors.OKBLUE+'Saving Links' + bcolors.ENDC)
                 print(bcolors.OKGREEN+'Saved Successfully' + bcolors.ENDC)
-                print('Found Email Saved at root folder of this tool as foundlinks.txt')
+                print("Found Email Saved at root folder of this tool")
                             
             else:
                 print("[-]Error")
